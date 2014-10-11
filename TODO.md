@@ -2,7 +2,7 @@
 
 - Multiplayer.
   - Duels: open a room for each, and score by whoever gets the set
-  first, out of 25 (or some other odd number of) 4-tuples of numbers.
+    first, out of 25 (or some other odd number of) 4-tuples of numbers.
     - Can we make this work with more than 2 people? It probably depends on
       the interface.
   - Facebook integration - pick a friend to challenge, redirect to a room
