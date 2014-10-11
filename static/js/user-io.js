@@ -65,9 +65,7 @@ $("#expr-form").submit(function () {
             var epsilon = 0.000001;
             if (exprval == null) {
                 alert("Invalid expression. Try again!");
-                console.log("hello??");
             } else if (Math.abs(exprval - 24) < epsilon) {
-                console.log("hello?");
                 var endTime = Date.now();
                 var solveTime = (endTime - startTime) / 1000;
                 alert("Good job!\nYou took " + solveTime + " seconds.");
@@ -79,7 +77,6 @@ $("#expr-form").submit(function () {
                 socket.emit('num_request_success',
                             { streak: parseInt($("#streak").text()) });
             } else {
-                console.log("hello??");
                 alert(exprval + " is not 24. Try again!");
             }
         }
